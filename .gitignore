@@ -1,0 +1,17 @@
+# deps (futuro, se o render rodar aqui)
+node_modules/
+
+# remotion
+.remotion/
+
+# OS / logs
+.DS_Store
+Thumbs.db
+*.log
+
+# NUNCA versionar segredos (este repo é PÚBLICO)
+.env
+.env.*
+*.key
+*secret*
+*token*
